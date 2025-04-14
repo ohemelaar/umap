@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  umap:
+  - apiVersion: v2
+    appVersion: 2.7.2
+    created: "2025-04-14T14:51:04.250100791Z"
+    dependencies:
+    - alias: cnpg
+      condition: cnpg.enabled
+      name: cnpg-cluster
+      repository: https://charts.enix.io/
+      version: 2.0.1
+    description: A Helm chart to deploy umap on Kubernetes
+    digest: 91763479c4972a802dfeb557c1fef9ff65e6fbb289418449dbc8e0f1ae1392a6
+    name: umap
+    type: application
+    urls:
+    - https://ohemelaar.github.io/umap/umap-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-04-14T14:51:04.248929163Z"
